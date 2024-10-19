@@ -218,7 +218,6 @@ def main():
             resultado_restos.append(novo_resto)
 
         # Exibe o resultado da divisão
-        print(f"\n{entrada1} / {entrada2}")
         print(f"{dividendo} / {divisor}")
         print(
             f"{resultado_restos[0]}     {''.join(map(str, resultado_geral))}")
