@@ -160,8 +160,7 @@ def main():
         # Exibe o resultado da divisão
         print(f"\n{entrada1} / {entrada2}")
         print(f"{dividendo} / {divisor}")
-        print(
-            f"{resultado_restos[0]}     {''.join(map(str, resultado_geral))}")
+        print(f"{resultado_restos[0]}     {''.join(map(str, resultado_geral))}")
 
         # Exibe os restos a partir do segundo elemento
         for item in resultado_restos[1:]:
@@ -219,8 +218,7 @@ def main():
 
         # Exibe o resultado da divisão
         print(f"{dividendo} / {divisor}")
-        print(
-            f"{resultado_restos[0]}     {''.join(map(str, resultado_geral))}")
+        print(f"{resultado_restos[0]}     {''.join(map(str, resultado_geral))}")
 
         # Exibe os restos a partir do segundo elemento
         for item in resultado_restos[1:]:
